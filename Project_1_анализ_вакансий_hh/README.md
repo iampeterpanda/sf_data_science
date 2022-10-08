@@ -15,7 +15,7 @@
 
 [7. Выводы](https://github.com/iampeterpanda/sf_data_science/tree/main/Project_1_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_hh#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
-[8. requirements.txt]()
+[8. requirements.txt](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_1_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_hh/requirements.txt)
 
 ### Описание проекта
 Преобразование ислледование и очистка данных на примере датасета с вакансиями соискателей на портале hh.ru
