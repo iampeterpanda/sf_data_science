@@ -1,4 +1,4 @@
-#  Проект 2. Подгрузка данных. Анализ работодателей
+#  Проект 3. EDA Предсказание рейтинга отелей
 
 ## Оглавление
 [1. Описание проекта](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
