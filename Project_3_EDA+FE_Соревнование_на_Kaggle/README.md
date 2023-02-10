@@ -1,19 +1,19 @@
 #  Проект 2. Подгрузка данных. Анализ работодателей
 
 ## Оглавление
-[1. Описание проекта]()
+[1. Описание проекта](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0)
 
-[2. Какой кейс решаем?]()
+[2. Какой кейс решаем?](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D0%BA%D0%B0%D0%BA%D0%BE%D0%B9-%D0%BA%D0%B5%D0%B9%D1%81-%D1%80%D0%B5%D1%88%D0%B0%D0%B5%D0%BC)
 
-[3. Краткая информация о данных]()
+[3. Краткая информация о данных](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
 
-[4. Этапы работы над проектом]()
+[4. Этапы работы над проектом](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D1%8D%D1%82%D0%B0%D0%BF%D1%8B-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%BC)
 
-[5. Результат]()
+[5. Результат](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82)
 
-[6. Выводы]()
+[6. Выводы](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/README.md#%D0%B2%D1%8B%D0%B2%D0%BE%D0%B4%D1%8B)
 
-[7. requirements.txt]()
+[7. requirements.txt](https://github.com/iampeterpanda/sf_data_science/blob/main/Project_3_EDA%2BFE_%D0%A1%D0%BE%D1%80%D0%B5%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_Kaggle/requirements.txt)
 
 ### Описание проекта
 Предсказание рейтинга отелей
@@ -40,29 +40,29 @@ MAPE: Средняя абсолютная процентная ошибка пр
 
 Файлы для соревнования
 
-hotels_train.csv - набор данных для обучения
-hotels_test.csv - набор данных для оценки качества
-submission.csv - файл сабмишна в нужном формате
+- hotels_train.csv - набор данных для обучения
+- hotels_test.csv - набор данных для оценки качества
+- submission.csv - файл сабмишна в нужном формате
 
 Признаки
 
-hotel_address - адрес отеля
-review_date - дата, когда рецензент разместил соответствующий отзыв.
-average_score - средний балл отеля, рассчитанный на основе последнего комментария за последний год
-hotel_name - название отеля
-reviewer_nationality - национальность рецензента
-negative_review - отрицательный отзыв, который рецензент дал отелю.
-review_total_negative_word_counts - общее количество слов в отрицательном отзыв
-positive_review - положительный отзыв, который рецензент дал отелю
-review_total_positive_word_counts - общее количество слов в положительном отзыве
-reviewer_score - оценка, которую рецензент поставил отелю на основе своего опыта
-total_number_of_reviews_reviewer_has_given - количество отзывов, которые рецензенты дали в прошлом
-total_number_of_reviews - общее количество действительных отзывов об отеле
-tags - теги, которые рецензент дал отелю.
-days_since_review - продолжительность между датой проверки и датой очистки
-additional_number_of_scoring - есть также некоторые гости, которые просто поставили оценку сервису, а не оставили отзыв. Это число указывает, сколько там действительных оценок без проверки.
-lat - широта отеля
-lng - долгота отеля
+- hotel_address - адрес отеля
+- review_date - дата, когда рецензент разместил соответствующий отзыв.
+- average_score - средний балл отеля, рассчитанный на основе последнего комментария за последний год
+- hotel_name - название отеля
+- reviewer_nationality - национальность рецензента
+- negative_review - отрицательный отзыв, который рецензент дал отелю.
+- review_total_negative_word_counts - общее количество слов в отрицательном отзыв
+- positive_review - положительный отзыв, который рецензент дал отелю
+- review_total_positive_word_counts - общее количество слов в положительном отзыве
+- reviewer_score - оценка, которую рецензент поставил отелю на основе своего опыта
+- total_number_of_reviews_reviewer_has_given - количество отзывов, которые рецензенты дали в прошлом
+- total_number_of_reviews - общее количество действительных отзывов об отеле
+- tags - теги, которые рецензент дал отелю.
+- days_since_review - продолжительность между датой проверки и датой очистки
+- additional_number_of_scoring - есть также некоторые гости, которые просто поставили оценку сервису, а не оставили отзыв. Это число указывает, сколько там действительных оценок без проверки.
+- lat - широта отеля
+- lng - долгота отеля
 
 ### Этапы работы над проектом
 поиск и удаление дубликатов
