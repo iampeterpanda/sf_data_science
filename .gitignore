@@ -3,6 +3,10 @@ dst-3.0_16_1_hh_database.csv
 hotels_test.csv
 hotels_train.csv
 hotels.csv
+train.csv
+osrm_data_train.csv
+Project5_test_data.csv
+Project5_osrm_data_test.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
