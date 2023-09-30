@@ -10,6 +10,12 @@ Project5_osrm_data_test.csv
 train.txt
 test.txt
 customer_segmentation_project.csv
+dst-3.0_mathml_14_5_rating.csv
+shared_articles.csv
+users_interactions.csv
+
+# Ненужные папки
+*venv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
