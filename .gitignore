@@ -13,6 +13,7 @@ customer_segmentation_project.csv
 dst-3.0_mathml_14_5_rating.csv
 shared_articles.csv
 users_interactions.csv
+data.csv
 
 # Ненужные папки
 *venv/
